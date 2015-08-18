@@ -1,0 +1,146 @@
+html{
+  height: 100%;
+   background-color: black;
+}
+
+section#navBar{
+  background-color: #353535;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  right: 0px;
+  height: 10%;
+  color:white;
+  min-width: 1100px;
+}
+
+section#navBar h1{
+  position: absolute;
+  left: 10%;
+  font-size: xx-large;
+  top: -8%;
+}
+
+p#myName{
+  position: absolute;
+  color: white;
+  right: 10%;
+  font-size: xx-large;
+  top: -25px;
+  width: 290px;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  height:97.7%;
+  font-weight: 900;
+  margin: 0;
+}
+
+main#mainContent{
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center; 
+  min-width: 1100px;
+  height: 100%;
+  color:white;
+  margin-top: -61px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+section#pageInfo{
+  position: relative;
+  top: 10%;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1#Title{
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 5%;
+}
+article#infoParagraph{
+  margin-bottom: 5%;
+  padding-left: 2%;
+  padding-right: 2%
+}
+
+img#myImage{
+  height: 350px;
+  border-radius: 50%;
+  background-position: 50%;
+  width: 350px;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+}
+
+form label{
+  display: block;
+  margin-top: 40px;
+  white-space: pre;
+}
+form#formInfo{
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  width: 50%;
+}
+
+#cssmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: auto;
+  position: relative;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  background: #353535;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid #353535;
+  zoom: 1;
+  padding-left: 10%;
+  padding-top: 20px;
+  min-width: 1100px;
+}
+#cssmenu ul:before {
+  content: '';
+  display: block;
+}
+#cssmenu ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#cssmenu li {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0 4px;
+}
+#cssmenu li a {
+  display: block;
+  float: left;
+  color: #999999;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px 7px 20px;
+  border-bottom: 3px solid transparent;
+}
+#cssmenu li a:hover {
+  color: #FFFFFF;
+  border-bottom: 3px solid #00b8fd;
+}
+#cssmenu li.active a {
+  display: inline;
+  border-bottom: 3px solid #00b8fd;
+  float: left;
+  margin: 0;
+}
+
