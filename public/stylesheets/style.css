@@ -59,12 +59,23 @@ section#pageInfo{
   margin-left: auto;
   margin-right: auto;
 }
+
+section#aboutmePageInfo{
+  position: relative;
+  top: 10%;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(53, 53, 53, .8);
+  border-style: inset;
+  border-radius: 10px;
+}
+
 h1#Title{
   padding-left: 2%;
   padding-right: 2%;
 }
 article#infoParagraph{
-  margin-bottom: 5%;
   padding-left: 2%;
   padding-right: 2%
 }
@@ -77,6 +88,7 @@ img#myImage{
   border-style: solid;
   border-width: medium;
   border-color: black;
+  margin: 40px;
 }
 
 form label{
@@ -103,7 +115,7 @@ section#right{
   background: rgba(53, 53, 53, .8);
   border-style: inset;
   border-radius: 10px;
-  height: 1150px;
+  height: 1190px;
 }
 h1#SampleTitle{
   text-align: center;
@@ -112,6 +124,11 @@ h1#SampleTitle{
 h2#Title{
   text-align: center;
   background: rgba(40, 40, 40, .8);
+}
+
+section#description{
+  font-family: "new century schoolbook";
+  font-size: 18px;
 }
 
 #cssmenu ul {
